@@ -37,3 +37,10 @@ js/app.js        navigation, pages, recherche
 ```
 
 > Les terminaux sont des simulations pédagogiques : pour de vrais systèmes, utilisez WSL/une VM Linux, Packet Tracer, GNS3 ou Containerlab.
+
+## Licences
+
+- **Code** (HTML, CSS, JavaScript, sandbox, outils) : licence [MIT](LICENSE).
+- **Contenu pédagogique** (textes des cours, quiz, glossaire, schémas — fichiers `js/lessons*.js`, `js/resources.js` et contenus rédactionnels) : [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.fr) — texte complet dans [LICENSE-CONTENT](LICENSE-CONTENT). Vous pouvez réutiliser et adapter les cours, y compris commercialement, à condition de citer « RéseauAcadémie » avec un lien vers ce dépôt.
+
+Les ressources externes listées sur le site restent soumises à leurs propres licences.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RéseauAcadémie — Apprendre les réseaux informatiques</title>
+<meta name="description" content="Cours complet et interactif pour apprendre les réseaux : OSI, TCP/IP, adressage IP, sous-réseaux, routage, VLAN, DNS, sécurité, Wi-Fi, quiz et outils.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <a href="#/" class="brand"><span class="logo">⟁</span> Réseau<b>Académie</b></a>
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Rechercher un cours, un protocole, un terme…" autocomplete="off">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+  <nav class="topnav">
+    <a href="#/parcours">Parcours</a>
+    <a href="#/cours">Cours</a>
+    <a href="#/sandbox">Sandbox</a>
+    <a href="#/outils">Outils</a>
+    <a href="#/exercices">Exercices</a>
+    <a href="#/examen">Examen</a>
+    <a href="#/ressources">Ressources</a>
+    <a href="#/glossaire">Glossaire</a>
+  </nav>
+  <button class="icon-btn" id="themeBtn" aria-label="Thème">◐</button>
+</header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="progress-box">
+      <div class="progress-label">Progression <span id="progressPct">0%</span></div>
+      <div class="progress-bar"><div id="progressFill"></div></div>
+    </div>
+    <nav id="sideNav"></nav>
+  </aside>
+  <main id="app" tabindex="-1"></main>
+</div>
+<footer class="footer">RéseauAcadémie — cours libre et gratuit pour apprendre les réseaux informatiques. Progression enregistrée localement dans votre navigateur.</footer>
+<script src="js/lessons.js"></script>
+<script src="js/lessons2.js"></script>
+<script src="js/lessons3.js"></script>
+<script src="js/lessons4.js"></script>
+<script src="js/resources.js"></script>
+<script src="js/sandbox.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
